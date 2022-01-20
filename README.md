@@ -1,12 +1,12 @@
 # databasy
-my idea was Hierarchical Database
-there is a directory for the db -> DB
-inside DB subdirectory for schemas -> Schemas
-inside Schemas subdirectory for tables -> Tables
-plus a file for info on our tables: path, column names.. -> info.txt/json/xml...
-inside Tables file for index -> indexes.txt/json/xml....
-inside Tables files for records -> records.txt/json/xml....
-each record file contains N amount of records
+my idea was Hierarchical Database  
+there is a directory for the db -> DB  
+inside DB subdirectory for schemas -> Schemas  
+inside Schemas subdirectory for tables -> Tables  
+plus a file for info on our tables:   path, column names.. -> info.txt/json/xml...
+inside Tables file for index -> indexes.txt/json/xml....  
+inside Tables files for records -> records.txt/json/xml....  
+each record file contains N amount of records 
 
 with the ETL Pipeline from the previous project I will:
 * extract the data and parse it into Records -> an object that contains a List of Cells
