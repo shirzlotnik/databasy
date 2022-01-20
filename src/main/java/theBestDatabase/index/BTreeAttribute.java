@@ -25,6 +25,6 @@ public class BTreeAttribute extends Index {
             this.bTree.put(value, new Byte[indexes.size()]);
         }
 
-        return null
+        return null;
     }
 }
