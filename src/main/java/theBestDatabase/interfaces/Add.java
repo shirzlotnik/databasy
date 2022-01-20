@@ -1,5 +1,5 @@
 package theBestDatabase.interfaces;
 
-public interface Add<T> {
+public interface Add<T> extends Functions {
     public void add (T t);
 }

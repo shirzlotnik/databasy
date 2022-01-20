@@ -1,5 +1,5 @@
 package theBestDatabase.interfaces;
 
-public interface Delete<T> {
+public interface Delete<T> extends Functions {
     public void delete (T t);
 }

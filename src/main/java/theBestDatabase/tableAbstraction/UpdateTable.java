@@ -1,4 +1,4 @@
-package theBestDatabase.abstraction;
+package theBestDatabase.tableAbstraction;
 
 import theBestDatabase.DBThingys.Table;
 import theBestDatabase.interfaces.Update;

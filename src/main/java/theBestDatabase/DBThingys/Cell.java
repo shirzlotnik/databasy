@@ -7,6 +7,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Cell <T extends Object> {
-    T attribute;
+public class Cell {
+    Object attribute;
 }
