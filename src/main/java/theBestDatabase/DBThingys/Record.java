@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.naming.ldap.SortKey;
 import java.util.List;
 
 @AllArgsConstructor
@@ -11,5 +12,5 @@ import java.util.List;
 @Data
 public class Record {
     List<Cell> cells;
-    public static Object index;
+    SortKey key;
 }
