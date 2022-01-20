@@ -3,13 +3,12 @@ package theBestDatabase.DBThingys;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import sun.reflect.generics.tree.Tree;
 
-import java.util.TreeMap;
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Table {
-    TreeMap<Object, Record> recordsSorted;
+public class Schema {
+    List<Table> tables;
 }

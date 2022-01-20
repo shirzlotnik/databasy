@@ -9,7 +9,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Record<T> {
+public class Record {
     List<Cell> cells;
-    T index;
+    public static Object index;
 }
